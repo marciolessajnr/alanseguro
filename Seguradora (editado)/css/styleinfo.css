@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #B1A06E;
+    text-decoration: none;
+}
+
+.menu {
+    background-color: #161920;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-between;
+    padding: 3px 10px 3px 70px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin: 0px 20px;
+    font-size: 13px;
+}
+
+#nossos-serviços {
+    height: 110px;
+    width: 100%; 
+    background-image: url(./planodefundo.png);
+    background-size: 100%;  
+}
+
+.fundo{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    height:100%;
+    margin-left: 0%;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+h1 {
+    color: #B1A06E; 
+    font-family: 'Montserrat' sans-serif; 
+    font-weight: bold;
+    text-decoration: none;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.divisao{
+    height: 100%;
+    width: 100%;
+}
+
+.seg-carro {
+    height: 100%;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+
+    color: black;
+    font-family: 'Montserrat', sans-serif;}
+
+.imagem-carro {
+    padding-left: 7%;
+    margin-left: 5%;
+}
+
+.titulo-carro {
+    width: 60%;
+    margin-right: 15%;}
+
+.titulo-carro h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.titulo-carro p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.seg-residencial {
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.imagem-casa {
+    padding-top: 10%;
+    padding-right: 4%;
+    margin-right: 0%;
+}
+
+.fundo-casa {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.titulo-casa {
+    height: 80vh;
+    width: 72%;
+    margin-right: 5%;
+    
+    background-image: url(./planodefundo.png);
+    background-size: 100% 100%;
+}
+
+.titulo-casa h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #B1A06E;
+    padding-top: 20%;
+}
+
+.titulo-casa p {
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.seg-equipamento {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.imagem-equip {
+    padding-top: 10%;
+    padding-left: 4%;
+    margin-left: 0%;
+}
+
+.fundo-equip {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.titulo-equip {
+    height: 80vh;
+    width: 70%;
+    margin-left: 5%;
+    
+    background-image: url(./planodefundo.png);
+    background-size: 100% 100%;
+}
+
+.titulo-equip h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #B1A06E;
+    padding-top: 20%;
+}
+
+.titulo-equip p {
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.seg-empresarial {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.imagem-empresa {
+    padding-top: 10%;
+    padding-right: 4%;
+}
+
+.fundo-empresa {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.titulo-empresa {
+    height: 80vh;
+    width: 72%;
+    margin-right: 5%;
+    
+    background-image: url(./planodefundo.png);
+    background-size: 100% 100%;
+}
+
+.titulo-empresa h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #B1A06E;
+    padding-top: 20%;
+}
+
+.titulo-empresa p {
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.seg-acidentes {
+    height: 100%;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.imagem-acidentes {
+    padding-left: 7%;
+    margin-left: 5%;
+}
+
+.titulo-acidentes {
+    width: 60%;
+    margin-right: 10%;
+}
+
+.titulo-acidentes h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.titulo-acidentes p {
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer {
+    background-color: #161920;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-between;
+    padding: 3px 10px 3px 70px;
+}
+
+footer p {
+    color: #B1A06E; 
+    margin: 0px 20px;
+    font-size: 13px;
+}
